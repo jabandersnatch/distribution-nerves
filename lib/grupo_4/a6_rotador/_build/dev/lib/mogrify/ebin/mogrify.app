@@ -1,0 +1,13 @@
+{application,mogrify,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,crypto,logger]},
+              {description,"ImageMagick command line wrapper."},
+              {modules,['Elixir.Mogrify','Elixir.Mogrify.Compat',
+                        'Elixir.Mogrify.Image','Elixir.Mogrify.Option',
+                        'Elixir.Mogrify.Options',
+                        'Elixir.Mogrify.Options.Color',
+                        'Elixir.Mogrify.Options.Filter',
+                        'Elixir.Mogrify.Options.Helpers',
+                        'Elixir.Mogrify.Options.Transform']},
+              {registered,[]},
+              {vsn,"0.8.0"}]}.
