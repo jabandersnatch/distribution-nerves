@@ -1,0 +1,16 @@
+%{
+  "vix-nif-2.16-aarch64-apple-darwin-0.27.0.tar.gz" => "sha256:471c5a5c56054885049e06dc324ffed4681e3ed6ede1c237a6491cff2eee7b90",
+  "vix-nif-2.16-aarch64-linux-gnu-0.27.0.tar.gz" => "sha256:080857a6575b3be0826e5b2a01dac679aa016c754821a2d6081e5374d1c21c46",
+  "vix-nif-2.16-aarch64-linux-musl-0.27.0.tar.gz" => "sha256:fe742c2f6799abeb4ee2fdec331287bb6ef1dd28c0a9edb583a7cbf193d2ef78",
+  "vix-nif-2.16-armv7l-linux-gnueabihf-0.27.0.tar.gz" => "sha256:dc0e1dedc912c3cd4503c99db01a81bb2c818692c0230c6482cc2ba754aee895",
+  "vix-nif-2.16-x86_64-apple-darwin-0.27.0.tar.gz" => "sha256:6e261df319b26665a1208acd54f3dd549039c97b881110329d3e34dec1d0d5a1",
+  "vix-nif-2.16-x86_64-linux-gnu-0.27.0.tar.gz" => "sha256:5f4027050057af62d10430f6f5aabdcf3907c4f0147479a022a459a7c9239200",
+  "vix-nif-2.16-x86_64-linux-musl-0.27.0.tar.gz" => "sha256:abd2d55a274a02ea0e348b1d652ce72b21c332ebdf0e0c97cd4a33c4a3468858",
+  "vix-nif-2.17-aarch64-apple-darwin-0.27.0.tar.gz" => "sha256:0a8b5ff10fafbac342478f2d75eb64052af8b4d8bd2a4aec9e75f902d57434da",
+  "vix-nif-2.17-aarch64-linux-gnu-0.27.0.tar.gz" => "sha256:1ffae0e0aec49c6e917d17a8c382580bbd5a804e1c3ebaa222ad5a16c2f7c600",
+  "vix-nif-2.17-aarch64-linux-musl-0.27.0.tar.gz" => "sha256:59375a0a56655e60449f7cf18e32d6700c6d6ade9cb43de380615dc4f9d03ef2",
+  "vix-nif-2.17-armv7l-linux-gnueabihf-0.27.0.tar.gz" => "sha256:5061ef26548d94f0eb0782a12c6a0cb9de7f7d153df311f6030e48bce3e6d892",
+  "vix-nif-2.17-x86_64-apple-darwin-0.27.0.tar.gz" => "sha256:6012d09a4015262a9a65f664654813c8411dcfa1a85a6d812c385309f18c6524",
+  "vix-nif-2.17-x86_64-linux-gnu-0.27.0.tar.gz" => "sha256:d1bff77d00c6e573590d12edde939e846af4130e5d473427d227a3a0d01e5c12",
+  "vix-nif-2.17-x86_64-linux-musl-0.27.0.tar.gz" => "sha256:996370bc99379d83c78d267823b14db16126024f1b0e636e9d25e8befe6e3d52",
+}
