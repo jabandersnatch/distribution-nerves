@@ -4,19 +4,19 @@
 ## Luis Sebastian Bautista Patarroyo - 202010190 - l.bautistap
 
 ### Configuración previa para realizar prueba local
-    Para probar la ejecución se deben seguir los siguientes pasos:
+Para probar la ejecución se deben seguir los siguientes pasos:
     
-    1. Iniciar las dos consolas necesarias para simular los nodos desde la carpeta del proyecto mix (el test reconocerá unicamente 2 nodos, excluyendo el nodo actual, por lo tanto se tendran 3 consolas: una principal y 2 nodos)
-    2. Ejecutar las siguientes lineas de comandos en cada consola:
-        Mix.install([:ex_png])
-        c "lib/com_nerves.ex"
-        Node.start :"node_0@127.0.0.1" # En la segunda consola se debe cambiar el nombre del nodo a "node_1"
-    3. En la consola principal ejecutar la siguientes lineas de comandos:
-        Mix.install([:ex_png])
-        c "lib/com_nerves.ex"
-        ComNerves.test # Se debe esperar a que el proceso termine para ver los resultados
+1. Iniciar las dos consolas necesarias para simular los nodos desde la carpeta del proyecto mix (el test reconocerá unicamente 2 nodos, excluyendo el nodo actual, por lo tanto se tendran 3 consolas: una principal y 2 nodos)
+2. Ejecutar las siguientes lineas de comandos en cada consola:
+    - Mix.install([:ex_png])
+    - c "lib/com_nerves.ex"
+    - Node.start :"node_0@127.0.0.1" # En la segunda consola se debe cambiar el nombre del nodo a "node_1"
+3. En la consola principal ejecutar la siguientes lineas de comandos:
+    - Mix.install([:ex_png])
+    - c "lib/com_nerves.ex"
+    - ComNerves.test # Se debe esperar a que el proceso termine para ver los resultados
 
-    Nota: El test está configurado para ejecutar el ejercicio 1, si se desea probar el ejercicio 2 se debe cambiar la variable data_ex1 por data_ex2 en la función test del modulo ComNerves (Descomentar las lineas 7 y 8, y comentar las lineas 5 y 6) y realizar los pasos anteriores nuevamente.
+> Nota: El test está configurado para ejecutar el ejercicio 1, si se desea probar el ejercicio 2 se debe cambiar la variable data_ex1 por data_ex2 en la función test del modulo ComNerves (Descomentar las lineas 7 y 8, y comentar las lineas 5 y 6) y realizar los pasos anteriores nuevamente.
 
 ### Configuración previa para realizar la prueba en un numero n de RPI
     Para probar la ejecución en la Raspberry Pi se deben seguir los siguientes pasos:
