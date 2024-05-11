@@ -128,26 +128,30 @@ Este módulo realiza el procesamiento de imágenes, específicamente la rotació
 ###  FUNCIONES AUXILIARES
 
   ->  Función load_image
+
         - Propósito: Carga una imagen desde un archivo.
         - Parámetros:
           > path: Ruta del archivo de la imagen.
         - Retorno: La imagen cargada como una estructura de datos de ExPng.Image.
 
   ->  Función grados_a_radianes
+
         - Propósito: Convierte grados a radianes para la rotación de imágenes.
         - Parámetros:
           > grados: Ángulo en grados.
         - Retorno: El ángulo convertido a radianes.
 
   ->  Función additional_values
+
         - Propósito: Calcula valores adicionales necesarios para la rotación de la imagen.
         - Parámetros:
           > width: Ancho original de la imagen.
           > height: Alto original de la imagen.
           > angle: Ángulo de rotación en grados.
         - Retorno: Una tupla con el nuevo ancho, nuevo alto, ancho adicional, y alto adicional de la imagen rotada.
-        
+
   ->  Función saveImage
+  
           - Propósito: Guarda la imagen resultante en un archivo.
           - Parámetros:
             > image: La imagen a guardar.
