@@ -1,9 +1,9 @@
 
 # Proyecto 1 - Paralelismo
-# Jonathan Obed Cabanzo Certuche - 201911749 - jo.cabanzo
-# Luis Sebastian Bautista Patarroyo - 202010190 - l.bautistap
+## Jonathan Obed Cabanzo Certuche - 201911749 - jo.cabanzo
+## Luis Sebastian Bautista Patarroyo - 202010190 - l.bautistap
 
---> Configuración previa para realizar prueba local
+### Configuración previa para realizar prueba local
     Para probar la ejecución se deben seguir los siguientes pasos:
     
     1. Iniciar las dos consolas necesarias para simular los nodos desde la carpeta del proyecto mix (el test reconocerá unicamente 2 nodos, excluyendo el nodo actual, por lo tanto se tendran 3 consolas: una principal y 2 nodos)
@@ -18,7 +18,7 @@
 
     Nota: El test está configurado para ejecutar el ejercicio 1, si se desea probar el ejercicio 2 se debe cambiar la variable data_ex1 por data_ex2 en la función test del modulo ComNerves (Descomentar las lineas 7 y 8, y comentar las lineas 5 y 6) y realizar los pasos anteriores nuevamente.
 
--> Configuración previa para realizar la prueba en un numero n de RPI
+### Configuración previa para realizar la prueba en un numero n de RPI
     Para probar la ejecución en la Raspberry Pi se deben seguir los siguientes pasos:
     
     1. Cambiar el codigo de la funcion connect_children en el modulo ComNerves, para que se conecte con los nodos hijos especificos de la red local. (Se debe cambiar la lista de nodos hijos en la linea 70)
@@ -34,12 +34,12 @@
           ComNerves.test # Se debe esperar a que el proceso termine para ver los resultados
 
 
-Módulo ComNerves
+## Módulo ComNerves
 
 Este módulo contiene funciones para configurar y ejecutar un sistema de procesamiento paralelo y distribuido. Utiliza características de Elixir como nodos, procesos y mensajes para distribuir tareas y recopilar resultados. Los datos se dividen entre la cantidad de nodos disponibles y la cantidad de procesos disponibles en cada nodo, es decir, en total se dividen los datos en nodos * procesos, para que cada uno de estos procese una parte de los datos en paralelo.
 
 
-->  Función test
+###  Función test
     Después de configurar el nodo actual (Iniciar el nodo principal) con configure/1, esta función prepara y ejecuta un ejemplo de cómo usar el sistema de procesamiento distribuido. Utiliza dos conjuntos de datos de ejemplo, data_ex1 y data_ex2, aunque sólo data_ex1 es realmente utilizado en este caso (A menos que se cambie). 
     Inicia el clúster de procesamiento distribuido con start_cluster usando el segundo conjunto de datos y funciones específicas pasadas como argumentos. Estas funciones son responsables de dividir los datos (e2_split_function), procesar los datos (e2_function) y fusionar los resultados (e2_merge_function). Note que estas funciones se definen dentro de los modulos de cada ejercicio (Ejercicio 1 y Ejercicio 2), por ello se pasan como parametro al cluster, para que este pueda ejecutarlas.
 
@@ -64,7 +64,7 @@ Este módulo contiene funciones para configurar y ejecutar un sistema de procesa
 ->  Función Privada connect_children
     Intenta conectar con los nodos hijos especificados en la lista. Retorna el número de nodos con los que se ha establecido conexión efectivamente.
 
-Módulo Exercise1
+## Módulo Exercise1
 Este módulo contiene funciones para dividir un texto en fragmentos, contar la frecuencia de cada palabra en cada fragmento y combinar los resultados de todos los fragmentos. 
 
 ->  Función e1_function
@@ -97,7 +97,7 @@ Este módulo contiene funciones para dividir un texto en fragmentos, contar la f
         La segunda variante es un caso base que simplemente retorna el mapa acumulador cuando la lista de childs está vacía.
         Retorno: Retorna un mapa combinado con las frecuencias de palabras de todos los fragmentos.
 
-Módulo Exercise2
+## Módulo Exercise2
 Este módulo realiza el procesamiento de imágenes, específicamente la rotación de imágenes, con un enfoque en el procesamiento paralelo.
 
 
