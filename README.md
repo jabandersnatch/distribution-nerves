@@ -6,7 +6,7 @@ A continuación, se proporcionan los enlaces a cada uno de los README que detall
 
 ## Tabla de Contenido 
 - [Grupo 1](#Grupo-1)
-- [Grupo 2](main/lib/grupo_2/README.md)
+- [Grupo 2](lib/grupo_2/README.md)
 - [Grupo 3](#Grupo-3)
 - [Grupo 4](#Grupo-4)
 - [Grupo 5](lib/grupo_5/project/README.md)
