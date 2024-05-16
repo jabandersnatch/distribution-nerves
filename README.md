@@ -6,7 +6,7 @@ A continuación, se proporcionan los enlaces a cada uno de los README que detall
 
 ## Tabla de Contenido 
 - [Grupo 1:](#Grupo-1)
-- [Grupo 2:](#Grupo-2)
+- [Grupo 2:](https://github.com/jabandersnatch/distribution-nerves/blob/main/lib/grupo_2/README.md)
 - [Grupo 3:](#Grupo-3)
 - [Grupo 4:](#Grupo-4)
 - [Grupo 5:](#Grupo-5)
