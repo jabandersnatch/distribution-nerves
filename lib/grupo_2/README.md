@@ -1,7 +1,9 @@
 # Grupo 2
 
 Esteban Gonzalez Ruales: 202021225
+
 Juan Diego Yepes: 202022391
+
 Felipe Nuñez: 202021673
 
 For our parallelism project we had to connect multiple RaspberryPis so that we can execute a variety of tasks in parallel taking advantage of the amount nodes and cores that each RaspberryPi adds to the system. First we will explain the installation process and then we will explain the cluster creation process.
@@ -96,7 +98,7 @@ Node.start(:"<main_node_name>@<ip_where_main_node_is>")
 Node.set_cookie(:<cookie_name>)
 ```
 
-With these instructions, you can now create as many nodes as you like and connect them to the main node. From the main node, the tasks are executed and parallelized towards the worker nodes (Raspberry Pis). The instructions on how to run the tasks can be found inside of our project's explanation PDF.
+With these instructions, you can now create as many nodes as you like and connect them to the main node. From the main node, the tasks are executed and parallelized towards the worker nodes (Raspberry Pis). The instructions on how to run the tasks can be found inside of our project's explanation PDF on the "ejercicios parallelismo" assignement on Bloque Neon.
 
 Other functions
 
