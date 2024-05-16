@@ -5,9 +5,9 @@ Considerando las limitaciones en la ejecución de funciones entre diferentes RPI
 A continuación, se proporcionan los enlaces a cada uno de los README que detallan el funcionamiento de los proyectos, tanto en comunicación como en la implementación de ejercicios de paralelismo:
 
 ## Tabla de Contenido 
-- [Grupo 1:](#Grupo-1)
-- [Grupo 2:](https://github.com/jabandersnatch/distribution-nerves/blob/main/lib/grupo_2/README.md)
-- [Grupo 3:](#Grupo-3)
-- [Grupo 4:](#Grupo-4)
-- [Grupo 5:](lib/grupo_5/project/README.md)
-- [Grupo 6:](#Grupo-6)
+- [Grupo 1](#Grupo-1)
+- [Grupo 2](main/lib/grupo_2/README.md)
+- [Grupo 3](#Grupo-3)
+- [Grupo 4](#Grupo-4)
+- [Grupo 5](lib/grupo_5/project/README.md)
+- [Grupo 6](#Grupo-6)
