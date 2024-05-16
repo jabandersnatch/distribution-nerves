@@ -8,6 +8,6 @@ A continuación, se proporcionan los enlaces a cada uno de los README que detall
 - [Grupo 1](#Grupo-1)
 - [Grupo 2](lib/grupo_2/README.md)
 - [Grupo 3](#Grupo-3)
-- [Grupo 4](#Grupo-4)
+- [Grupo 4](lib/grupo_4/cluster.md)
 - [Grupo 5](lib/grupo_5/project/README.md)
 - [Grupo 6](#Grupo-6)
