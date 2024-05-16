@@ -33,10 +33,13 @@ Para probar la ejecución en la Raspberry Pi se deben seguir los siguientes paso
 4. En la consola principal ejecutar la siguientes lineas de comandos:
   - ComNerves.test # Se debe esperar a que el proceso termine para ver los resultados
 
+## Nivel de paralelismo
 
-## Módulo ComNerves
+El nodo principal divide los datos entre la cantidad de nodos disponibles y la cantidad de procesos disponibles en cada nodo, es decir, en total se dividen los datos en una cantidad de #nodos * #procesos (la notacion # se refiere a número-de ), esto para que cada uno de estos "workers" (un "worker" es un proceso en un nodo) procese una parte de los datos en paralelo y devuelva la respuesta al nodo principal. Cada ejercicio define sus propias funciones de dividir, converger y la función a ejecutar, sin embargo, los metodos de dividir y converger son usados, unicamente, por el thread principal que recibe las respuestas de los nodos. Se  asumió como numero de procesos en cada nodo la constante 3 debido a la cantidad de recursos que permiten las RPI 4.
 
-Este módulo contiene funciones para configurar y ejecutar un sistema de procesamiento paralelo y distribuido. Utiliza características de Elixir como nodos, procesos y mensajes para distribuir tareas y recopilar resultados. Los datos se dividen entre la cantidad de nodos disponibles y la cantidad de procesos disponibles en cada nodo, es decir, en total se dividen los datos en nodos * procesos, para que cada uno de estos procese una parte de los datos en paralelo.
+## Módulo ComNerves 
+
+Este módulo contiene funciones para configurar y ejecutar un sistema de procesamiento paralelo y distribuido. Utiliza características de Elixir como nodos, procesos y mensajes para distribuir tareas y recopilar resultados. 
 
 
 ###  Función test
