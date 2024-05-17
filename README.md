@@ -4,7 +4,9 @@ Considerando las limitaciones en la ejecución de funciones entre diferentes RPI
 
 A continuación, se proporcionan los enlaces a cada uno de los README que detallan el funcionamiento de los proyectos, tanto en comunicación como en la implementación de ejercicios de paralelismo:
 
-## Tabla de Contenido 
+## Tabla de Contenido
+
+- [Grupo 0](lib/grupo_0/README.md)
 - [Grupo 1](#Grupo-1)
 - [Grupo 2](lib/grupo_2/README.md)
 - [Grupo 3](#Grupo-3)
