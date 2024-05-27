@@ -7,7 +7,7 @@ A continuación, se proporcionan los enlaces a cada uno de los README que detall
 ## Tabla de Contenido
 
 - [Grupo 0](lib/grupo_0/README.md)
-- [Grupo 1](#Grupo-1)
+- [Grupo 1](lib/grupo_1/README.md)
 - [Grupo 2](lib/grupo_2/README.md)
 - [Grupo 3 Eder Carbonero](lib/grupo_3/cluster/README.md)
 - [Grupo 4](lib/grupo_4/cluster.md)
